@@ -1,0 +1,89 @@
+/*importa uma fonte do google*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* esquema de cores
+  #1D1A39
+  #451902
+  #662549
+  #AE445A
+  #F39F5A
+  #E8BCB9
+*/
+
+*{
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#E8BCB9,#F39F5A,#AE445A,#662549,#451902,#1D1A39);
+  user-select: none;
+}
+
+input{
+  background: rgba(255,255,255, 0.8);
+  font-size: 1rem;
+  text-align: center;
+  color:#662549;
+}
+
+input::placeholder{
+  text-align: left;  
+}
+
+input:focus{
+  outline: none;
+  border-color: #662549;
+  box-shadow: 0 0 10px rgba(102, 37, 73, 0.5);
+}
+
+input::selection{
+  color:#E8BCB9;
+  background-color: #662549;
+}
+
+.flex-column{display: flex; flex-direction: column;}
+
+.center{
+  align-self: center;
+  width: 50%;
+}
+
+.border{border-radius: 20px; border: none;}
+
+.p-12{padding: 12px;}
+
+.p-24{padding: 24px;}
+
+.text-dark{color: #1D1A39;}
+
+.text-light{color: #E8BCB9;}
+
+.font-semibold{font-weight: 500;}
+
+.shadow{box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);}
+
+.content{
+  max-width: 768px;
+  text-align: center;
+  gap: 24px;
+  background: rgba(232,188,185, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.btn{
+  background: #E8BCB9;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover{
+  color:#E8BCB9;
+  background: #662549;
+}

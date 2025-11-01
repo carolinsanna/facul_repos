@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <title>Gerador de Tabuada Interativo</title>
+</head>
+<body class="flex-column text-light">
+  <nav></nav>
+  <main class="flex-column content border p-24 shadow">
+    <h1>Gerador de Tabuada Interativo</h1>
+
+    <label 
+      class="font-semibold" 
+      for="tab">Entre com um número de 1 a 10:
+    </label>
+
+    <input 
+      id="multiplicador" 
+      class="center border p-12 font-semibold" 
+      placeholder="Ex.: 8" 
+      type="number" 
+      name="tab" 
+      min="1" max="10" />
+
+    <button 
+      class="center btn border p-12 text-dark font-semibold shadow" 
+      type="button" 
+      onClick="calcularTabuada()">
+      CALCULAR
+    </button>
+
+    <div class="container">
+      <h3 id="titulo" class="text-light"></h3>
+      <div 
+        id="tabuada" 
+        class="text-light">
+      </div>
+    </div>
+  </main>
+  <footer>Desenvolvido por Carolina Dias</footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
