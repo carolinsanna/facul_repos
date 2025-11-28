@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  background: #222;
+  color: #662549;
+  padding: 20px;
+  min-height: 100vh;
+  background-image: url('../imgs/jokenpo-dojo.jpg');
+  background-size: cover;
+  justify-content: space-around;
+  user-select: none;
+}
+
+main {
+  width: 768px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  background: rgba(232, 188, 185, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #662549;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.choice {
+  background: #E8BCB9;
+  border-radius: 15px;
+  padding: 25px;
+  font-size: 40px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.choice:hover {
+  transform: scale(1.15);
+  background: #662549;
+}
+
+.result p,
+.result h2 {
+  margin: 8px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.125rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #AE445A;
+  color: #fff;
+  transition: .2s;
+  width: fit-content;
+  place-self: center;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background: #662549;
+  transform: scale(1.05);
+}
