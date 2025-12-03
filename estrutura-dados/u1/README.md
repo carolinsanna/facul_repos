@@ -1,4 +1,5 @@
-# Gerenciador de Tarefas em C
+# 🦙 Trabalho da Unidade 1 🦙 
+## Gerenciador de Tarefas em C
 
 Este projeto implementa um sistema simples de gerenciamento de tarefas
 utilizando listas encadeadas em linguagem C. O programa permite
