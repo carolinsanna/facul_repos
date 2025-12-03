@@ -1,4 +1,4 @@
-# 🦙 Trabalho da Unidade 2 🦙 
+# 🦙 Trabalho da Unidade 3 🦙 
 ## Histórico de Operações com Pilha
 
 Este projeto implementa um sistema simples de histórico de operações utilizando uma estrutura de dados do tipo **Pilha (Stack)** em C. O objetivo é simular o comportamento de "desfazer" (undo) de uma calculadora ou editor.
